@@ -1,0 +1,39 @@
+   .heading {
+                padding: 60px;
+                font-size: 25px;
+                text-align: center;
+                background: #f5cba7;
+            }
+           
+ 
+            .section {
+               background-color: #e6b0aa;
+               padding: 20px;
+               margin-top: 30px;
+            }
+            .book {
+                background-color: #a3e4d7;
+                padding: 20px;
+                margin-top: 30px;
+
+
+ 
+            }
+/*The remaining code is genarated by ChatGPT. */
+/* The code below adds a hover eeffect to the images*/
+/* The width is how wide the image will be.*/
+/* The transition is how slow or fast the image will..*/
+/*    change/animate to grab attention.*/
+/* The opacity is how opacit it will become when you..*/
+/*    hover on top of the image. */
+/* Transform is how big/little the image will become */
+
+img {
+  width: 40%; /* Makes the image responsive */
+  transition: transform 0.5s ease, opacity 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.08); /* Scales the image slightly */
+  opacity: 0.8; /* Slightly dims the image */
+}
